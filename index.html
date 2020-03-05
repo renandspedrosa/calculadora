@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <title>Calculadora</title>
+  </head>
+  <body class="p-3 mb-2 bg-info text-white">
+    <h1>Calculadora</h1>
+    <section class="shadow rounded p-3 mb-2 ">
+        <div class="historico rounded p-3 mb-2 bg-light text-dark" id="historico">
+        </div>
+        <div class="visor rounded p-3 mb-2 bg-light text-dark" id="visor">
+        </div>
+        <input type="button" value="%" class="btn btn-dark" id="numPor" onclick="porcentagem()"><input type="button" value="CE" class="btn btn-dark" id="numCE" onclick="finalizarCE()"><input type="button" value="C" class="btn btn-dark" id="numC" onclick="finalizarC()"><input type="button" value="/" class="btn btn-dark" id="numBar" onclick="dividir()"><br>
+        <input type="button" value="1" class="btn btn-dark" id="num1" onclick="adicionaUm()"><input type="button" value="2"class="btn btn-dark" id="num2" onclick="adicionaDois()"><input type="button" value="3" class="btn btn-dark"id="num3" onclick="adicionaTres()"><input type="button" value="X" class="btn btn-dark" id="numX" onclick="multiplicar()"><br>
+        <input type="button" value="4" class="btn btn-dark" id="num4" onclick="adicionaQuatro()"><input type="button" value="5" class="btn btn-dark" id="num5" onclick="adicionaCinco()"><input type="button" value="6" class="btn btn-dark" id="num6" onclick="adicionaSeis()"><input type="button" value="-" class="btn btn-dark" id="numMen" onclick="diminuir()"><br>
+        <input type="button" value="7" class="btn btn-dark" id="num7" onclick="adicionaSete()"><input type="button" value="8" class="btn btn-dark" id="num8" onclick="adicionaOito()"><input type="   button" value="9" class="btn btn-dark" id="num9" onclick="adicionaNove()"><input type="button" value="+" class="btn btn-dark" id="numMai" onclick="somar()"><br>
+        <input type="button" value="0" class="btn btn-dark" id="num0" onclick="adicionaZero()"><input type="button" value="=" class="btn btn-secondary" id="Igual" onclick="resultado()"><br>
+    </section>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>

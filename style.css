@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+}
+section{
+    width: 316px;
+    height: 490px;
+    background-color: rgb(148, 148, 148);
+    margin: auto;
+}
+.visor{
+    margin-top:-10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 275px;
+    height: 80px;
+    text-align: center;
+    font-size: 25pt;
+}
+.historico{
+    margin:auto;
+    height: 10px;
+    width: 275px;
+    text-align: right;
+    font-size: 9pt;
+}
+input{
+    width: 67px;
+    height: 67px;
+    margin: auto;
+}
+input#Igual{
+    width:209px;
+    height: 67px;
+    margin: 2px;
+}
+input#num1{
+    margin: 2px;
+}
+input#num2{
+    margin: 2px;
+}
+
+input#num3{
+    margin: 2px;
+}
+input#numX{
+    margin: 2px;
+}
+input#numPor{
+    margin: 2px;
+}
+input#numCE{
+    margin: 2px;
+}
+input#numC{
+    margin: 2px;
+}
+input#numBar{
+    margin: 2px;
+}
+input#num4{
+    margin: 2px;
+}
+input#num5{
+    margin: 2px;
+}
+input#num6{
+    margin: 2px;
+}
+input#num7{
+    margin: 2px;
+}
+input#num8{
+    margin: 2px;
+}
+input#num9{
+    margin: 2px;
+}
+input#num0{
+    margin: 2px;
+}
+input#numMen{
+    margin: 2px;
+}
+input#numMai{
+    margin: 2px;
+}
